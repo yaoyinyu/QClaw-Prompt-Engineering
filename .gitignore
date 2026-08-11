@@ -1,0 +1,33 @@
+# memory daily logs (optional, if they contain sensitive temp data)
+# memory/2026-*.md
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node / npm (if project ever adds dependencies)
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Python (if project ever adds Python)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
